@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    /* margin: 0; */
 }
 
 body {
@@ -26,7 +26,7 @@ h1 {
     font-size: 44px;
 }
 
-#title {
+section {
     margin-bottom: 20px;
 }
 
@@ -44,4 +44,31 @@ h1 {
 #title a {
     text-decoration: none;
     color: rgb(26, 153, 238);
+}
+
+section span {
+    background-color: yellow;
+}
+
+ul {
+
+}
+
+thead {
+    background-color: rgb(50, 139, 255);
+}
+th {
+    text-align: left;
+}
+
+.column_one {
+    width: 25%;
+}
+
+.column_two {
+    width: 25%;
+}
+
+.column_three {
+    width: 50%;
 }
