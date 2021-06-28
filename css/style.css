@@ -1,5 +1,5 @@
 * {
-    /* margin: 0; */
+    margin: 0;
 }
 
 body {
@@ -16,6 +16,11 @@ header {
     background-color:rgb(26, 153, 238) ;
     background-image: url('../img/pattern.png');
     height: 200px;
+}
+
+header img {
+    width: 40%;
+    padding: 100px 0 10px 10px; 
 }
 
 main {
@@ -50,13 +55,22 @@ section span {
     background-color: yellow;
 }
 
-ul {
-
+section ul {
+    padding: 15px;
 }
 
 thead {
     background-color: rgb(50, 139, 255);
 }
+
+.row_first_color {
+    background-color: cornflowerblue;
+}
+
+.row_second_color {
+    background-color: white;
+}
+
 th {
     text-align: left;
 }
@@ -72,3 +86,4 @@ th {
 .column_three {
     width: 50%;
 }
+
