@@ -22,12 +22,26 @@ main {
     margin: 20px 5px 0 5px;
 }
 
-.subtitle {
-    color: grey;
+h1 {
+    font-size: 44px;
+}
+
+#title {
     margin-bottom: 20px;
 }
 
-.subtitle a {
+.subtitle {
+    color: grey;
+}
+
+#top {
+    font-size: 26px;
+}
+#bot {
+    font-size: 18px;
+}
+
+#title a {
     text-decoration: none;
     color: rgb(26, 153, 238);
 }
