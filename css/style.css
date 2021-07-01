@@ -15,12 +15,14 @@ body {
 header {
     background-color:rgb(26, 153, 238) ;
     background-image: url('../img/pattern.png');
-    height: 200px;
+    height: 100px;
 }
 
 header img {
-    width: 40%;
-    padding: 100px 0 10px 10px; 
+    width: 200px;
+    /* padding: 100px 0 10px 10px;  */
+    height: 100px;
+    margin-left: 20px;
 }
 
 main {
@@ -57,6 +59,10 @@ section span {
 
 section ul {
     padding: 15px;
+}
+
+table {
+    border-collapse:collapse;
 }
 
 thead {
